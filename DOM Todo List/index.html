@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Todo List</h1>
+
+    <form id="taskForm">
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter a task..."
+            required
+        >
+
+        <button type="submit">Add</button>
+    </form>
+
+    <h3 id="counter">0 tasks remaining</h3>
+
+    <div class="filters">
+
+        <button id="allBtn">All</button>
+
+        <button id="activeBtn">Active</button>
+
+        <button id="completedBtn">Completed</button>
+
+    </div>
+
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
